@@ -121,4 +121,14 @@ https://aip.baidubce.com/rest/2.0/face/v1/merge?access_token=24.f9ba9c5341b67688
     ]
 }
 ```
-- 
+### 高德静态地图
+- 调用方法：申请”Web服务API”密钥（Key）；拼接HTTP请求URL，第一步申请的Key需作为必填参数一同发送；接收HTTP请求返回的数据（json或xml格式），解析数据。
+- 注意：如无特殊声明，接口的输入参数和输出数据编码全部统一为utf-8。
+- 请求方式：GET。
+- 请求URL：https://restapi.amap.com/v3/staticmap?parameters
+- 使用示例：
+```https://restapi.amap.com/v3/staticmap?markers=-1,https://ico.ooopic.com/ajax/iconpng/?id=158688.png,0:116.37359,39.92437&key=您的key```
+- 使用示例：
+```
+![返回图片](https://restapi.amap.com/v3/staticmap?location=116.481485,39.990464&zoom=10&size=750*300&markers=mid,,A:116.481485,39.990464&key=ee95e52bf08006f63fd29bcfbcf21df0)
+```
