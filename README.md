@@ -45,9 +45,11 @@
 - 请求方式：POST。
 - 请求URL：https://aip.baidubce.com/rest/2.0/face/v3/detect
 - 使用示例：
-'''https://aip.baidubce.com/rest/2.0/face/v1/merge?access_token=24.f9ba9c5341b67688ab4added8bc91dec.2592000.1485570332.282335-8574074'''
+```
+https://aip.baidubce.com/rest/2.0/face/v1/merge?access_token=24.f9ba9c5341b67688ab4added8bc91dec.2592000.1485570332.282335-8574074
+```
 - 返回实例：
-'''{	
+```{	
   "face_num": 1,
   "face_list": [
         {
@@ -118,5 +120,5 @@
         }
     ]
 }
-'''
+```
 - 
