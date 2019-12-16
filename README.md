@@ -149,3 +149,7 @@ https://restapi.amap.com/v3/staticmap?markers=-1,https://ico.ooopic.com/ajax/ico
 10<QPS<=50 |250元/月/QPS |25元/天/QPS 
 50<QPS<=100| 200元/月/QPS |20元/天/QPS 
 100<QPS |150元/月/QPS |15元/天/QPS 
+- 可以取代的API：阿里云/微软
+
+### 高德静态地图
+- 目前静态地图尚且不存在收费的问题，若是是中途出现了难以解决的情况，可以用百度地图开放平台的API来取代。
