@@ -130,7 +130,7 @@ https://aip.baidubce.com/rest/2.0/face/v1/merge?access_token=24.f9ba9c5341b67688
 ```
 https://restapi.amap.com/v3/staticmap?markers=-1,https://ico.ooopic.com/ajax/iconpng/?id=158688.png,0:116.37359,39.92437&key=您的key
 ```
-- 使用示例：<br></br>
+- 返回示例：<br></br>
 ![返回图片](https://restapi.amap.com/v3/staticmap?location=116.481485,39.990464&zoom=10&size=750*300&markers=mid,,A:116.481485,39.990464&key=ee95e52bf08006f63fd29bcfbcf21df0)
 
 ## 使用比较分析
